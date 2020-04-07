@@ -24,7 +24,7 @@ from albumentations import (
 
 from models.unet import UNet
 from models.discriminator import FCDiscriminator
-from dataset.refuge_Vmiccai import REFUGE
+from dataset.refuge import REFUGE
 from pytorch_utils import (adjust_learning_rate, adjust_learning_rate_D,
                            calc_mse_loss, Weighted_Jaccard_loss, dice_loss)
 from models import optim_weight_ema
