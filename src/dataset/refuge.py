@@ -29,11 +29,11 @@ import torch.utils.data as data
 # test_image_dir = '../data/validation_crop_polar_s460/data'
 # test_mask_dir = '../data/validation_crop_polar_s460/label'
 
- src_image_dir = '../data/training_crop_cartesian_s600/data'
- src_mask_dir = '../data/training_crop_cartesian_s600/label'
- tgt_image_dir ='../data/test_crop_cartesian_s460/data'
- test_image_dir = '../data/validation_crop_cartesian_s460/data'
- test_mask_dir = '../data/validation_crop_cartesian_s460/label'
+src_image_dir = '../data/training_crop_cartesian_s600/data'
+src_mask_dir = '../data/training_crop_cartesian_s600/label'
+tgt_image_dir ='../data/test_crop_cartesian_s460/data'
+test_image_dir = '../data/validation_crop_cartesian_s460/data'
+test_mask_dir = '../data/validation_crop_cartesian_s460/label'
 
 class REFUGE(data.Dataset):
     """REFUGE Dataset.
