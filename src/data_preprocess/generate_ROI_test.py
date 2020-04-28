@@ -24,11 +24,11 @@ DiscSeg_size = 640  # input size to the disc detection model
 train_data_type = '.jpg'
 mask_data_type = '.bmp'
 
-Original_vali_img_path = '../../data/Validation400/'
-Original_Mask_img_path = '../../data/Validation400-GT/Disc_Cup_Masks/'
+Original_vali_img_path = '../../data/Test400/'
+Original_Mask_img_path = '../../data/Test_Disc_Cup_Masks/'
 
-Image_save_path = '../../data/validation_crop_cartesian_s460/data/'
-MaskImage_save_path = '../../data/validation_crop_cartesian_s460/label/'
+Image_save_path = '../../data/test_crop_cartesian_s460/data/'
+MaskImage_save_path = '../../data/test_crop_cartesian_s460/label/'
 
 if not os.path.exists(Image_save_path):
     os.makedirs(Image_save_path)
