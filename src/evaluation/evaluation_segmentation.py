@@ -276,8 +276,8 @@ def evaluate_segmentation_results(segmentation_folder, gt_folder, output_path=No
 
 if __name__ == '__main__':
 
-    results_folder = '../../data/result_UNet120000_v22_refineNet/'
-    gt_folder = '../../data/valiMaskImage_save_path_460/'
+    results_folder = '../../data/result_UNet80000v21_JointOpt_multiScale_R2AttU_Net/'
+    gt_folder = '../../data/validation_crop_cartesian_s460/label/'
     output_path = results_folder
     export_table = True
     evaluate_segmentation_results(results_folder, gt_folder, output_path, export_table)
