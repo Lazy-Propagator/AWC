@@ -22,7 +22,7 @@ from dataset.refuge import REFUGE
 
 NUM_CLASSES = 3
 NUM_STEPS = 512 # Number of images in the validation set.
-RESTORE_FROM = '../data/snapshots/UNet80000v21_JointOpt_multiScale_R2AttU_Net.pth'
+RESTORE_FROM = '../data/snapshots/UNet200000_v18_weightedclass.pth'
 SAVE_PATH = '../data/result_UNet80000v21_JointOpt_multiScale_R2AttU_Net/'
 MODEL = 'Unet'
 BATCH_SIZE = 1
